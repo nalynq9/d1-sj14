@@ -1,17 +1,6 @@
-var a = "Global";
-function scopeTest(){
-    var myLocal = "Local";
-    document.write(myLocal);
-    console.log(myLocal);
+function sum(num1,num2){
+    return num1 + num2;
 }
 
-console.log(myLocal);
-scopeTest();
-
-var x = 1;
-
-{
-    let x = 2;
-}
-
-console.log(x);
+document.getElementById("demo").innerHTML = sum(5,10);
+document.write(<h2>${sum(5)} </h2>);
