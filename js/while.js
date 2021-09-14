@@ -1,7 +1,7 @@
-var myNumber = [1,2,3,4,5];
+var myNumber = ['a','b','c','d','e'];
 var idx = 0;
-var number = myNumber.length;
-console.log("Length = " number);
+var number = myNumber.length;//5
+console.log("Length = " + number);
 
 console.log("Member is " + myNumber[0]);
 console.log("Member is " + myNumber[1]);
